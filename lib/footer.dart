@@ -9,6 +9,7 @@ class Footer extends StatefulWidget{
 
 //class _Footer extends State
 //{
+ //あああああああああ
 //  @override
 //  Widget build(BuildContext context) {
 //    return BottomNavigationBar(

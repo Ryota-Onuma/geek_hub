@@ -1,4 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:geekHub/screens/home_screen.dart';
+import 'package:geekHub/screens/message_screen.dart';
+import 'package:geekHub/screens/post_screen.dart';
+import 'package:geekHub/screens/profile_screen.dart';
+import 'package:geekHub/screens/search_screen.dart';
+
 import 'header.dart'; // <- header.dart を インポート
 import 'footer.dart'; // footer.dart をインポート
 
@@ -16,9 +22,18 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,  // <- Debug の 表示を OFF
       home: Scaffold(
         appBar: Header(),
-        body: Center(child: Text("夜中1時半")), // <- Text の位置を指定
+        body: Center(child: Text("main")), // <- Text の位置を指定
           bottomNavigationBar: Footer()
       ),
+
+        routes: {
+          HomeScreen.id:(context) => HomeScreen(),
+          MessageScreen.id:(context) => MessageScreen(),
+          PostScreen.id:(context) => PostScreen(),
+          ProfileScreen.id:(context) => ProfileScreen(),
+          SearchScreen.id:(context) => SearchScreen(),
+
+        }
     );
   }
 }

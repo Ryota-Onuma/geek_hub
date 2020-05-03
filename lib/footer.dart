@@ -1,4 +1,9 @@
 import 'package:flutter/material.dart';
+import 'screens/home_screen.dart';
+import 'screens/message_screen.dart';
+import 'screens/post_screen.dart';
+import 'screens/profile_screen.dart';
+import 'screens/search_screen.dart';
 
 class Footer extends StatefulWidget{
   const Footer();
@@ -83,6 +88,26 @@ class _Footer extends State<Footer> {
   void _onItemTapped(int index) {
     setState( () {
       _selectedIndex = index;
+      switch(index)
+      {
+        case 0:
+          Navigator.of(context).pushNamed(HomeScreen.id);
+          break;
+        case 1:
+          Navigator.of(context).pushNamed(SearchScreen.id);
+          break;
+        case 2:
+          Navigator.of(context).pushNamed(PostScreen.id);
+          break;
+        case 3:
+          Navigator.of(context).pushNamed(ProfileScreen.id);
+          break;
+        case 4:
+          Navigator.of(context).pushNamed(MessageScreen.id);
+          break;
+        default:
+          break;
+      }
     });
   }
 

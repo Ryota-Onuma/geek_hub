@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>913386398892-m1mludttu54l391vm730po8e78afn7gj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.913386398892-m1mludttu54l391vm730po8e78afn7gj</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBSJ9UlDIY5YeGVAfwlAZzhQctVFxMp0es</string>
+	<key>GCM_SENDER_ID</key>
+	<string>913386398892</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.geekHub</string>
+	<key>PROJECT_ID</key>
+	<string>geek-hub-220ed</string>
+	<key>STORAGE_BUCKET</key>
+	<string>geek-hub-220ed.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:913386398892:ios:57a457eb018048ba102b09</string>
+	<key>DATABASE_URL</key>
+	<string>https://geek-hub-220ed.firebaseio.com</string>
+</dict>
+</plist>

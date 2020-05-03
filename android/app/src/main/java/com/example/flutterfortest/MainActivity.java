@@ -1,4 +1,4 @@
-package com.example.flutterfortest;
+package com.example.geekHub;
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity;

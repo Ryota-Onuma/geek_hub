@@ -4,6 +4,13 @@ import 'package:geekHub/screens/message_screen.dart';
 import 'package:geekHub/screens/post_screen.dart';
 import 'package:geekHub/screens/profile_screen.dart';
 import 'package:geekHub/screens/search_screen.dart';
+import 'package:geekHub/screens/welcome_screen.dart';
+import 'package:geekHub/screens/login_screen.dart';
+import 'package:geekHub/screens/registration_screen.dart';
+
+import 'screens/login_screen.dart';
+import 'screens/registration_screen.dart';
+import 'screens/welcome_screen.dart';
 
 import 'header.dart'; // <- header.dart を インポート
 import 'footer.dart'; // footer.dart をインポート
@@ -25,14 +32,16 @@ class MyApp extends StatelessWidget {
         body: Center(child: Text("main")), // <- Text の位置を指定
           bottomNavigationBar: Footer()
       ),
-
+        initialRoute: WelcomeScreen.id,
         routes: {
           HomeScreen.id:(context) => HomeScreen(),
           MessageScreen.id:(context) => MessageScreen(),
           PostScreen.id:(context) => PostScreen(),
           ProfileScreen.id:(context) => ProfileScreen(),
           SearchScreen.id:(context) => SearchScreen(),
-
+          WelcomeScreen.id: (context) => WelcomeScreen(),
+          LoginScreen.id: (context) => LoginScreen(),
+          RegistrationScreen.id: (context) => RegistrationScreen(),
         }
     );
   }
